@@ -36,3 +36,15 @@ console.log("equal to", data2);
 // strict equality operators
 let data3 = b === b;
 console.log("strict equal to", data3);
+
+// logical operators
+
+// && : and
+// || : or
+// ! : not => if true then false else true
+
+let data4 = a > b && c > d; //&& = all condition must be true
+console.log("logical and", data4);
+
+let data5 = a > b || c > d; // || = any one condition must be true
+console.log("logical or", data5);
