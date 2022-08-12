@@ -34,3 +34,21 @@ let arrow = (user) => {
 };
 let user = "pavimegan";
 console.log(arrow(user));
+
+//  contructor function
+
+function Alien(name, tech) {
+  this.name = name;
+  this.tech = tech;
+
+  this.work = function () {
+    console.log("constructor function");
+  };
+}
+
+let alien1 = new Alien("pavi", "javascript");
+
+alien1.name = "pavithranathan";
+
+console.log(alien1);
+alien1.work();
